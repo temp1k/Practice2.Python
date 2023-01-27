@@ -10,7 +10,6 @@ else:
     visokosniy = 28
 
 for i in range(1, 13):
-    print(i)
     match i:
         case 1, 3, 5, 7, 8, 10, 12:
             days = 31
