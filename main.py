@@ -3,7 +3,7 @@ days = 0
 result = 0
 visokosniy = 0
 
-if year % 4 == 0:
+if (year % 4 == 0 and not(year % 100 == 0)) or (year % 4 == 0 and year % 100 == 0 and year % 400 == 0):
     visokosniy = 29
                 
 else:
